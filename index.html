@@ -6,26 +6,46 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <title>Digital Clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    
+
+
+    <title>Totaro - Digital Clock</title>
+    
     
 </head>
 <body>
 
-    <div class="bigcontainer">
-
+    <header id="header">
         <div class="navbar">
-            <div class="name">totaro://html:css:javascript</div>
-            <ul>
-                <li><a href="https://totaro.github.io/weather/">Weather</a></li>
-                <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
-                <li><a href="https://totaro.github.io/randomphotogallery/">PhotoGallery</a></li>
-                <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
+            <div class="logo"><a href="">Totaro</a></div>
+            <ul class="links">
+                <li><a href="https://totaro.github.io/">Home</a></li>
+            <li><a href="https://totaro.github.io/weather/">Weather</a></li>
+            <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
+            <li><a href="https://totaro.github.io/randomphotogallery/">Photo Gallery</a></li>
+            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
             </ul>
-    
-    
+            <a href="#" class="action_btn">Contact Me!</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
 
+        <div class="dropdown_menu">
+            <li><a href="https://totaro.github.io/">Home</a></li>
+            <li><a href="https://totaro.github.io/weather/">Weather</a></li>
+            <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
+            <li><a href="https://totaro.github.io/randomphotogallery/">Photo Gallery</a></li>
+            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
+            <li><a href="#" class="action_btn">Contact Me!</a></li>
+
+
+        </div>
+    </header>
+    
+    <main><section id="hero">
     <h2>Digital Clock</h2>
     <div class="clock">
         <div>
@@ -43,12 +63,10 @@
         <div>
             <span id="ampm">AM</span>
         </div>
-
-
-
     </div>
+</section></main>
 
-    </div>   
+      
     <script src="index.js"></script>
 </body>
 </html>
