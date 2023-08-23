@@ -121,7 +121,7 @@ header {
     top: 80px;
     height: 0px;
     width: 300px;
-    background: rgb(255, 255, 255, .3);
+    background: rgb(255, 255, 255, .5);
     backdrop-filter: blur(15px);
     border-radius: 7px;
     overflow: hidden;
@@ -130,7 +130,7 @@ header {
 }
 
 .dropdown_menu.open{
-    height: 260px;
+    height: 210px;
 
 }
 
@@ -151,7 +151,7 @@ header {
 
 section#hero{
 
-    height: calc(100vh - 60px);
+    height: calc(70vh - 60px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,7 +199,7 @@ section#hero{
     @media(max-width: 415px){
 
         section{
-            margin-left: -30px;
+            margin-left: -20px;
         }
 
         section .clock #ampm{
